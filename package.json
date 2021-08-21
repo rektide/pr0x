@@ -1,10 +1,11 @@
 {
 	"name": "prox",
+	"type": "module",
 	"version": "1.0.0",
 	"description": "middleware for proxies",
 	"main": "prox.js",
 	"scripts": {
-		"test": "node -r esm .test"
+		"test": "node .test"
 	},
 	"repository": {
 		"type": "git",
@@ -17,11 +18,10 @@
 	},
 	"dependencies": {
 		"caminus": "^1.0.0",
-		"phased-middleware": "^1.0.1",
-		"deferrant": "^1.2.2"
+		"deferrant": "^1.2.2",
+		"phased-middleware": "^1.0.1"
 	},
 	"devDependencies": {
-		"esm": "^3.1.1",
 		"rimraf": "^2.6.2",
 		"tape": "^4.9.1"
 	}

@@ -1,4 +1,4 @@
-var prox= require("../prox")
+var prox= require("../prox.js")
 
 var chainy= /^_chain(.*)/
 
